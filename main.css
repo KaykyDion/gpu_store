@@ -204,10 +204,7 @@ h2 {
 
   .card-container {
     grid-template-columns: 100%;
-  }
-
-  #gpus .card-container {
-    margin-bottom: 350px;
+    row-gap: 10px;
   }
 
   .card a {
@@ -232,14 +229,11 @@ h2 {
   }
 
   .card-container {
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 49%);
+    row-gap: 10px;
   }
 
   .card a {
     max-width: 100%;
-  }
-
-  #gpus .card-container {
-    margin-bottom: 100px;
   }
 }
